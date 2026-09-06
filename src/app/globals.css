@@ -31,9 +31,21 @@ body {
   }
 }
 
-@keyframes notFoundOrbit {
+@keyframes notFoundOrbitOne {
+  from {
+    transform: rotate(-22deg);
+  }
   to {
-    transform: rotate(360deg);
+    transform: rotate(338deg);
+  }
+}
+
+@keyframes notFoundOrbitTwo {
+  from {
+    transform: rotate(48deg);
+  }
+  to {
+    transform: rotate(408deg);
   }
 }
 
